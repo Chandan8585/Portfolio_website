@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chandanpratap.vercel.app/sitemap.xml
