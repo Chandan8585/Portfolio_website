@@ -1,9 +1,7 @@
 import nomadnest from '../assets/projects/mockups/nomad_nest.png'
 import LrProject from '../assets/projects/mockups/LR_crm.png'
 import tirasya from '../assets/projects/mockups/kyte1.png'
-import Tomatino from '../assets/projects/mockups/Tomatino.png'
-
-import ljs from '../assets/projects/mockups/ljs1.png'
+import Tomatino from '../assets/projects/mockups/tomatino.png'
 import fi1 from '../assets/projects/mockups/fi1.png'
 import qualityDigital from '../assets/projects/mockups/qd1.png'
 import sp from '../assets/projects/mockups/sp.png'
