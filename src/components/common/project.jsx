@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Link } from 'react-router-dom'
 import nomadnest from '../../assets/projects/mockups/nomad_nest.png'
 import LrProject from '../../assets/projects/mockups/LR_crm.png'
-import Tomatino from '../../assets/projects/mockups/tomatino.png'
+import Tomatino from '../../assets/projects/mockups/movie_rev.png'
 const images = [
      {
           id: 1,
