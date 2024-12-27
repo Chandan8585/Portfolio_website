@@ -1,24 +1,25 @@
 'use client'
 import { motion } from 'framer-motion'
-import Vinysys from '../../assets/images/vinysys.webp'
+import Vinysys from '../../assets/images/Vinysys.webp'
 import Zuptek from '../../assets/images/Zuptek.webp'
 const experiences = [
-  {
-    title: "AWS Cloud Computing and DevOps Training",
-    company: "Vinysys",
-    description: "Learned Cloud Application Development, deploying and managing applications on servers, automating infrastructure provisioning, ensuring application security, and setting up efficient CI/CD pipelines to streamline development and deployment processes.",
-    icon: Vinysys,
-    technologies: ["AWS", "EC2", "AWS S3", "AWS Lambda", "Docker", "Terraform", "Kubernetes", "Linux", "Bash", "CI/CD"],
-    duration: "September 2024 - December 2024"
-},
+
   {
     title: "Full Stack Developer",
     company: "Zuptek Infotech",
-    description: "Worked as a full-stack developer at Zuptek Infotech since December 2023. Developed e-commerce, CRM, and project management applications using the PHP, Mysql, Vanilla Js, Next.js, React.js. Designed and developed over 8 websites as the sole developer.",
+    description: "Worked as a full-stack developer at Zuptek Infotech since November 2023. Developed e-commerce, CRM, and project management applications using the PHP, Mysql, Vanilla Js, Next.js, React.js. Designed and developed over 8+ websites as the sole developer and with team.",
     icon: Zuptek,
     technologies: ["MERN", "PHP", "MySQL"],
-    duration: "December 2023 - September 2024"
-  }
+    duration: "November 2023 - Currently Working"
+  },
+  {
+    title: "AWS Cloud Computing and DevOps Training",
+    company: "Vinysys IT Training and Services",
+    description: "Learning Cloud Application Development, deploying and managing applications on servers, automating infrastructure provisioning, ensuring application security, and setting up efficient CI/CD pipelines to streamline development and deployment processes.",
+    icon: Vinysys,
+    technologies: ["AWS", "EC2", "AWS S3", "AWS Lambda", "Docker", "Terraform", "Kubernetes", "Linux", "Bash", "CI/CD"],
+    duration: "September 2024 - December 2024"
+}
 ]
 
 

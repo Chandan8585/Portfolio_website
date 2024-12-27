@@ -30,7 +30,7 @@ export function ResumeActionsToggle() {
      const [ref, bounds] = useMeasure()
      const audioRef = useRef(null)
 
-     const RESUME_PDF_ID = '1MMkHuoJZckkf4qyEcqoKzjL8DCAS5Stl'
+     const RESUME_PDF_ID = '1NkSRfGU6gTqkwYiDz2-F4D708VpaXU33'
      const PDF_URL = `https://drive.google.com/uc?export=download&id=${RESUME_PDF_ID}`
 
      const handleDownload = () => {

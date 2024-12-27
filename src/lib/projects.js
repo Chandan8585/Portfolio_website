@@ -1,19 +1,15 @@
 import nomadnest from '../assets/projects/mockups/nomad_nest.png'
 import LrProject from '../assets/projects/mockups/LR_crm.png'
-import tirasya from '../assets/projects/mockups/kyte1.png'
+import tirasya from '../assets/projects/mockups/tirasya.png'
 import Tomatino from "../assets/projects/mockups/movie_rev.png"
-import fi1 from '../assets/projects/mockups/fi1.png'
-import qualityDigital from '../assets/projects/mockups/qd1.png'
-import sp from '../assets/projects/mockups/sp.png'
-import vk from '../assets/projects/mockups/vk.png'
-import cp from '../assets/projects/mockups/cp.png'
+import Serverless from "../assets/projects/mockups/serverless.png"
 
 
 export const projects = [
      {
           "name": "Nomad Nest Hotel Booking Website",
           "slug": "hotel-booking-website",
-          "description": "A robust ecommerce application developed using the MERN stack with advanced features such as inventory management, email marketing, RBAC, and third-party integrations like Razorpay for payments and Google APIs for authentication and data handling.",
+          "description": "A comprehensive hotel booking application developed using the MERN stack, featuring advanced functionalities such as real-time search and filtering, booking management, secure payment integration with Razorpay, user authentication and an intuitive user interface for seamless user experience",
           "features": [
 "Sleek Single-Page Application: Enjoy a seamless user experience within a single page, ensuring efficiency and smooth navigation",
 "Robust Backend Powered by Express.js and Node.js: The application's backend functionality is supported by Express.js and Node.js, providing a robust and responsive foundation",
@@ -85,74 +81,20 @@ export const projects = [
           "image": tirasya,
      },
      {
-          "name": "Forcon Infra Website",
-          "slug": "forcon-infra-website-design-and-development",
-          "description": "The Forcon Infra website is a sleek and professional platform designed to represent the company’s expertise in infrastructure solutions. The design was created in Figma and developed into a fully functional and responsive website using React.js and Framer Motion.",
+          "name": "Serverless Sales Analysis Report",
+          "slug": "serverless-sales-analysis-report-automation",
+          "description": "Implemented a serverless solution using AWS Lambda to automate daily sales report generation by querying an Amazon EC2-hosted LAMP database. The system utilizes Amazon CloudWatch Events to trigger the Lambda function and sends reports via Amazon SNS to administrators, all while securing database credentials with AWS Systems Manager Parameter Store.",
           "features": [
-               "Figma design tailored to Forcon Infra’s services",
-               "Fully optimized for all screen sizes",
-               "Smooth animations with Framer Motion",
-               "Built with React.js for scalability and performance"
+              "AWS Lambda for automated report generation",
+              "Amazon EC2-hosted LAMP database integration",
+              "Triggered by CloudWatch Events",
+              "Reports sent via Amazon SNS to administrators",
+              "Secured credentials with AWS Systems Manager Parameter Store"
           ],
-          "techStack": ["Figma", "React.js", "Framer Motion"],
-          "liveLink": "forconinfra.com",
-          "image": fi1
-     },
-     {
-          "name": "Quality Digital Color Lab Website",
-          "slug": "quality-digital-website-design-and-development",
-          "description": "The Quality Digital Color Lab website is a vibrant and responsive platform designed to showcase the lab’s expertise in digital printing and photography services. The design reflects the brand’s creativity and professionalism, developed using React.js and enhanced with Framer Motion.",
-          "features": [
-               "Custom Figma design for a creative and professional feel",
-               "Optimized for desktop, tablet, and mobile devices",
-               "Engaging animations powered by Framer Motion",
-               "Component-based development in React.js"
-          ],
-          "techStack": ["Figma", "React.js", "Framer Motion"],
-          "liveLink": "qualitydigitalcolorlab.com",
-          "image": qualityDigital
-     },
-     {
-          "name": "Shivam Pawar Portfolio Website",
-          "slug": "portfolio-development",
-          "description": "The Shivam Pawar portfolio website is a sleek and professional platform showcasing personal projects, skills, and accomplishments. Designed in Figma, it was developed into a functional and interactive website using React.js and Framer Motion.",
-          "features": [
-               "Custom Figma design reflecting personal branding",
-               "Fully responsive for all devices",
-               "Interactive animations using Framer Motion",
-               "Built with React.js for performance and modularity"
-          ],
-          "techStack": ["Figma", "React.js", "Framer Motion"],
-          "liveLink": "shivampawar.vercel.app",
-          "image": sp
-     },
-     {
-          "name": "VK Food Website",
-          "slug": "vk-food-website-design-and-development",
-          "description": "The VK Food website is a modern and visually appealing platform created to showcase the brand’s food products and services. Designed in Figma and developed using React.js, with smooth animations powered by Framer Motion.",
-          "features": [
-               "Custom Figma design emphasizing VK Food’s branding",
-               "Responsive design for all devices",
-               "Smooth transitions and hover effects using Framer Motion",
-               "Built with React.js for scalability and performance"
-          ],
-          "techStack": ["Figma", "React.js", "Framer Motion"],
-          "liveLink": "vkfood.in",
-          "image": vk
-     },
-     {
-          "projectTitle": "Climate App",
-          "description": "A real-time weather application providing detailed climate information for locations worldwide. Built with Next.js, TanStack Query, and OpenWeather API for accurate and efficient data fetching and display.",
-          "features": [
-               "Real-time weather updates with temperature, humidity, wind speed, and condition icons.",
-               "Search functionality for finding weather details of any city.",
-               "Geolocation-based weather data fetching for the user's current location.",
-               "Responsive design optimized for mobile, tablet, and desktop devices.",
-               "Error handling for invalid city names or API issues."
-          ],
-          "techStack": ["Figma", "React.js", "Framer Motion", "Shadcn UI", "Tanstack"],
-          "liveLink": "climate-production.vercel.app/",
-          "image": cp
-     }
-
+          "techStack": ["AWS Lambda", "Amazon EC2", "Amazon SNS", "Amazon CloudWatch", "AWS Systems Manager Parameter Store", "Python"],
+          "liveLink": "example.com", 
+          "image": Serverless
+      }
+      
+  
 ]

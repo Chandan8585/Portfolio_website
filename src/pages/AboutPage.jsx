@@ -85,7 +85,7 @@ export const AboutsPage = () => {
           >
             <div className="p-8 rounded-2xl transition-all duration-500 ">
               <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800">
-                As a <span className="font-semibold text-red-600">Full Stack Developer</span> at Zuptek Infotech since December 2023,specializing in building dynamic web applications and platforms. My work includes developing e-commerce platforms, Content Management Systems (CMS Dashboards), and CRM Dashboards using the Php, Mysql and MERN stack. Additionally, I have independently designed and developed over eight websites, transforming concepts into efficient and impactful digital solutions.
+                As a <span className="font-semibold text-red-600">Full Stack Developer</span> at Zuptek Infotech since November 2023,specializing in building dynamic web applications and platforms. My work includes developing e-commerce platforms, Content Management Systems (CMS Dashboards), and CRM Dashboards using the Php, Mysql and MERN stack. Additionally, I have independently designed and developed over eight websites, transforming concepts into efficient and impactful digital solutions.
               </p>
             </div>
           </ScrollElement>
