@@ -1,6 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
-import Vinysys from '../../assets/images/Vinysys.webp'
+import Vinysys from '../../assets/images/vinysys.webp'
 import Zuptek from '../../assets/images/Zuptek.webp'
 const experiences = [
 
